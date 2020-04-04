@@ -1,23 +1,40 @@
 面试资料整理
 
-jvm垃圾回收 https://www.jianshu.com/p/9b66208689b4
+！！！合集 https://cyc2018.github.io/CS-Notes/#/README
+！！！超级大合集 http://www.tianxiaobo.com/
+
+
+head first 设计模式
+
+<java>
+java的基本数据类型和字节数 https://blog.csdn.net/qq_26751325/article/details/78547697
+
+jvm垃圾回收 https://blog.csdn.net/hollis_chuang/article/details/104140327
+            https://www.jianshu.com/p/9b66208689b4
+
+类加载过程 https://blog.csdn.net/yubotianxiao/article/details/51861663
+
+类加载器与双亲委派 https://blog.csdn.net/u011080472/article/details/51332866
+
+java内存模型及volatile关键字 https://www.cnblogs.com/dolphin0520/p/3920373.html
 
 Object类中的方法 https://blog.csdn.net/nwpu_geeker/article/details/78760157
 
 Error、Exception与RuntimeException的区别 https://blog.csdn.net/qweqwruio/article/details/81329178
 
-乐观锁与悲观锁 https://blog.csdn.net/qq_34337272/article/details/81072874
-               https://www.jb51.net/article/155928.htm
-
-java内存模型及volatile关键字 https://www.cnblogs.com/dolphin0520/p/3920373.html
+泛型 https://www.cnblogs.com/coprince/p/8603492.html
 
 ArrayList的扩容机制 https://blog.csdn.net/sky1373516909/article/details/89136572  文章前半部分不用看
 
-重点！HashMap和Hashtable以及ConcurrentHashMap的区别 https://blog.csdn.net/hanfengzqh/article/details/72420517
+HashMap和Hashtable以及ConcurrentHashMap的区别 https://blog.csdn.net/hanfengzqh/article/details/72420517
 
-数据库隔离级别 https://www.cnblogs.com/ForeverLover/p/4866354.html
-               https://zhuanlan.zhihu.com/p/37031059
-			   
+进程的同步、互斥、通信 https://blog.csdn.net/weixin_41413441/article/details/80548683
+                       https://blog.csdn.net/chen134225/article/details/81772185
+
+进程和线程 https://www.jianshu.com/p/2dc01727be45
+
+线程的5种状态 https://blog.csdn.net/xingjing1226/article/details/81977129
+
 多线程的实现 https://zhuanlan.zhihu.com/p/47401636
              https://www.cnblogs.com/dolphin0520/p/3949310.html
 
@@ -25,19 +42,131 @@ ArrayList的扩容机制 https://blog.csdn.net/sky1373516909/article/details/891
 
 线程池 https://zhuanlan.zhihu.com/p/73990200
 
+ThreadLocal https://www.cnblogs.com/dolphin0520/p/3920407.html
+
+CountDownLatch https://zhuanlan.zhihu.com/p/95835099
+
+CyclicBarrier https://zhuanlan.zhihu.com/p/27349391
+
+Semaphore https://www.jianshu.com/p/0090341c6b80
+
+AtomicInteger原理CAS https://www.cnblogs.com/liuqing576598117/p/10565088.html
+
+ReentrantLock实现原理 https://www.cnblogs.com/chengxiao/p/7255941.html
+
+synchroized和Lock的区别 https://blog.csdn.net/hefenglian/article/details/82383569
+
+序列化和反序列化 https://blog.csdn.net/tree_ifconfig/article/details/82766587
+
+反射 https://blog.csdn.net/sinat_38259539/article/details/71799078
+
+String、StringBuilder与StringBuffer https://zhuanlan.zhihu.com/p/77614811
+
+匿名内部类 https://www.cnblogs.com/SQP51312/p/6100314.html
+           https://blog.csdn.net/lxpblsc/article/details/21161115
+
+BIO，NIO，多路复用，AIO https://blog.csdn.net/qq_33330687/article/details/81558198
+
+select、poll、epoll之间的区别 https://www.cnblogs.com/aspirant/p/9166944.html
+
+Reactor、Proactor https://blog.csdn.net/guowenyan001/article/details/11525271
+
+RMI与RPC的区别 https://www.cnblogs.com/ygj0930/p/6542811.html
+
+java启动参数 https://zhuanlan.zhihu.com/p/98940096
+
+单点登录SSO https://www.cnblogs.com/yupeng/archive/2012/05/24/2517317.html
+
+动态代理 https://www.cnblogs.com/puyangsky/p/6218925.html
+
+
+
+<网络>
 OSI七层模型与TCP/IP五层模型 https://www.cnblogs.com/qishui/p/5428938.html
                             https://blog.csdn.net/yulyu/article/details/69062288
 
 TCP三次握手四次挥手 https://zhuanlan.zhihu.com/p/43838752
 
 HTTP协议 https://www.cnblogs.com/jackson0714/p/HTTP1.html#_label0
+         https://blog.csdn.net/qq_36894974/article/details/103930478
+
+浏览器地址栏输入一个URL后回车，将会发生的事情 https://www.cnblogs.com/midiyu/p/7905554.html
+
+Web页面的请求历程 https://blog.csdn.net/sun927/article/details/50764837
+
+ARP协议 https://blog.csdn.net/ever_peng/article/details/80008638
+
+HTTP和HTTPS https://zhuanlan.zhihu.com/p/29655702
+
+cookie和session https://blog.csdn.net/M87138/article/details/40436485
 
 
 
 
+<数据库>
+redis的数据结构 https://zhuanlan.zhihu.com/p/76026080
+
+Redis主从复制架构和Sentinel哨兵机制 https://www.cnblogs.com/hello-shf/p/12072330.html
+
+MySQL各数据类型所占字节数 https://www.jianshu.com/p/9c6af5c1eac5
+
+三范式 https://blog.csdn.net/hbtj_1216/article/details/77112850
+
+MySQL逻辑架构及查询过程 https://blog.csdn.net/chenshun123/article/details/79677037
+
+事务ACID和数据库隔离级别 https://www.cnblogs.com/ForeverLover/p/4866354.html
+               https://zhuanlan.zhihu.com/p/37031059
+
+聚簇索引和非聚簇索引 https://zhuanlan.zhihu.com/p/107133849
+                     https://www.cnblogs.com/qlqwjy/p/7770580.html
+
+InnoDB的B+树高度和分叉 https://zhuanlan.zhihu.com/p/91457118
+
+多版本并发控制MVCC https://blog.csdn.net/w2064004678/article/details/83012387
+
+乐观锁与悲观锁（是一种锁的思想） https://blog.csdn.net/qq_34337272/article/details/81072874
+                                 https://www.jb51.net/article/155928.htm
+
+表级锁和行级锁 读锁写锁 共享锁排他锁 https://blog.csdn.net/guojinyu_001/article/details/77442966
+
+联合索引的最左前缀匹配 https://blog.csdn.net/wolf_love666/article/details/87603852
+
+innodb哈希索引 https://www.cnblogs.com/heiming/p/5865101.html
+
+Innodb存储引擎 https://www.cnblogs.com/zhoujinyi/p/3408983.html
+
+MySQL binlog https://blog.csdn.net/wwwdc1012/article/details/88373440
+
+redo undo日志 https://my.oschina.net/u/863258/blog/699691
+
+
+
+<算法>
+平衡二叉树、B树、B+树 https://zhuanlan.zhihu.com/p/27700617
+
+完全二叉树 https://blog.csdn.net/mawming/article/details/46471429
+
+堆（Heap）大根堆、小根堆 https://www.cnblogs.com/wangchaowei/p/8288216.html
+
+排序算法 https://zhuanlan.zhihu.com/p/42586566
+
+红黑树 https://segmentfault.com/a/1190000014037447
+
+洗牌算法 https://blog.csdn.net/geniusluzh/article/details/8443682
+
+银行家算法 https://www.cnblogs.com/chuxiuhong/p/6103928.html
+
+Dijkstra算法 https://zhuanlan.zhihu.com/p/40338107
+             https://blog.csdn.net/hjiam2/article/details/38072203
+
+约瑟夫环 https://mp.weixin.qq.com/s?src=11&timestamp=1584891518&ver=2232&signature=gMXJZetdb9PDn4XGyOlcDwk8XumfjWEiB6eT5JyKp9s1cikBxQsSBqHo9KxDxdIDpDzdLkRQCH8P-3u65bLMw9bSMNdCYQbPMac*mtbxuMX3GhsiUQdW2NLqWSlkVZKO&new=1
 
 
 
 
+<Linux>
+统计文件中某个字符串出现的次数 https://blog.csdn.net/qq544649790/article/details/84202976
 
+查找文件的行数 https://blog.csdn.net/qq_23377055/article/details/47046261
 
+一个目录下所有文件的行数 https://blog.csdn.net/qq_32599479/article/details/91473149
